@@ -29,4 +29,18 @@ describe("JobStore", () => {
         const job = jobStore.getJobs();
         expect(job[0].status).toBe("interview");
     })
+
+    it('deletes a job from the store', () => {
+        const jobStore = new JobStore();
+        jobStore.addJob({
+            title: "test",
+            company: "test",
+        })
+
+        jobStore.deleteJob(0);
+
+        const job = jobStore.getJobs();
+        expect(job.length).toBe(0);
+    })
+
 });

@@ -17,4 +17,8 @@ export class JobStore {
             Object.assign(job, updates);
         }
     }
+
+    deleteJob(id) {
+        this.jobs.splice(id, 1);
+    }
 }
