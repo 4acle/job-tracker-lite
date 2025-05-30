@@ -1,5 +1,30 @@
-# Vue 3 + Vite
+# Job Tracker Lite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A simple job application tracker built with Vue, Vite, and tested using Vitest.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+This project is being developed using Test-Driven Development (TDD) to help reinforce clean, testable code and real-world dev practices.
+
+## Features
+
+- Add a job (title, company, status)
+- Update a job’s status
+- Delete a job
+- View current job list
+- Tested logic using Vitest
+
+## Tech Stack
+
+- **Vue 3** – UI framework
+- **Vite** – Build tool / dev server
+- **Vitest** – Unit testing
+- **JavaScript (ES6+)**
+
+## Status
+
+In progress – more features and UI to come.
+
+## How to Run
+
+```bash
+npm install
+npm run dev
